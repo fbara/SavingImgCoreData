@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3EBF6A23F908D9002BDEDE /* SenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EBF6923F908D9002BDEDE /* SenderView.swift */; };
 		AD61BA2623F7C8750098896F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA2523F7C8750098896F /* AppDelegate.swift */; };
 		AD61BA2823F7C8750098896F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA2723F7C8750098896F /* SceneDelegate.swift */; };
 		AD61BA2B23F7C8750098896F /* SavingImgCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA2923F7C8750098896F /* SavingImgCoreData.xcdatamodeld */; };
@@ -14,9 +15,12 @@
 		AD61BA2F23F7C8770098896F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD61BA2E23F7C8770098896F /* Assets.xcassets */; };
 		AD61BA3223F7C8770098896F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD61BA3123F7C8770098896F /* Preview Assets.xcassets */; };
 		AD61BA3523F7C8770098896F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD61BA3323F7C8770098896F /* LaunchScreen.storyboard */; };
+		AD61BA3E23F7C9570098896F /* Saving+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA3C23F7C9570098896F /* Saving+CoreDataClass.swift */; };
+		AD61BA3F23F7C9570098896F /* Saving+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA3D23F7C9570098896F /* Saving+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD3EBF6923F908D9002BDEDE /* SenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderView.swift; sourceTree = "<group>"; };
 		AD61BA2223F7C8750098896F /* SavingImgCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavingImgCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD61BA2523F7C8750098896F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD61BA2723F7C8750098896F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		AD61BA3123F7C8770098896F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD61BA3423F7C8770098896F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD61BA3623F7C8770098896F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD61BA3C23F7C9570098896F /* Saving+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saving+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AD61BA3D23F7C9570098896F /* Saving+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saving+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		AD61BA2423F7C8750098896F /* SavingImgCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				AD61BA3C23F7C9570098896F /* Saving+CoreDataClass.swift */,
+				AD61BA3D23F7C9570098896F /* Saving+CoreDataProperties.swift */,
 				AD61BA2523F7C8750098896F /* AppDelegate.swift */,
 				AD61BA2723F7C8750098896F /* SceneDelegate.swift */,
 				AD61BA2C23F7C8750098896F /* ContentView.swift */,
@@ -66,6 +74,7 @@
 				AD61BA3623F7C8770098896F /* Info.plist */,
 				AD61BA2923F7C8750098896F /* SavingImgCoreData.xcdatamodeld */,
 				AD61BA3023F7C8770098896F /* Preview Content */,
+				AD3EBF6923F908D9002BDEDE /* SenderView.swift */,
 			);
 			path = SavingImgCoreData;
 			sourceTree = "<group>";
@@ -150,9 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD61BA2623F7C8750098896F /* AppDelegate.swift in Sources */,
+				AD3EBF6A23F908D9002BDEDE /* SenderView.swift in Sources */,
 				AD61BA2B23F7C8750098896F /* SavingImgCoreData.xcdatamodeld in Sources */,
 				AD61BA2D23F7C8750098896F /* ContentView.swift in Sources */,
 				AD61BA2823F7C8750098896F /* SceneDelegate.swift in Sources */,
+				AD61BA3E23F7C9570098896F /* Saving+CoreDataClass.swift in Sources */,
+				AD61BA3F23F7C9570098896F /* Saving+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
