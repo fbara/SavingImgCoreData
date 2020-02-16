@@ -43,6 +43,20 @@ struct SenderView: View {
                 .padding()
                 .background(Color(red: 233/255, green: 234/255, blue: 243/255))
                 .cornerRadius(20)
+            
+            Button(action: {
+                let send = Saving(context: self.moc)
+                send.username = self.name
+                send.descriptions = self.description
+                send.imageD = self.image
+            }) {
+                Text("Send")
+                .fixedSize()
+                    .frame(width: 250, height: 30)
+                    .foregroundColor((self.name.count > 0 && self.description.count > 0 && self.image.count > 0) ? Color.white : Color.black)
+                .background((self.name.count > 0 && self.description.count > 0 && self.image.count > 0) ? Color.blue : Color.gray)
+                .cornerRadius(13)
+            }
         }
     }
 }

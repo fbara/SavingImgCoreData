@@ -28,6 +28,9 @@ struct ContentView: View {
             List(savings, id: \.self) { save in
                 VStack {
                     Image(uiImage: UIImage(data: save.imageD ?? self.image)!)
+                        .resizable()
+                        .frame(width: UIScreen.main.bounds.width - 34, height: 210)
+                        .cornerRadius(15)
                     
                     HStack {
                         Text("\(save.descriptions ?? "")")

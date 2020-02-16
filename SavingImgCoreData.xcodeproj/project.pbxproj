@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD3EBF6A23F908D9002BDEDE /* SenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EBF6923F908D9002BDEDE /* SenderView.swift */; };
+		AD3EBF6C23F90F8E002BDEDE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3EBF6B23F90F8E002BDEDE /* ImagePicker.swift */; };
 		AD61BA2623F7C8750098896F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA2523F7C8750098896F /* AppDelegate.swift */; };
 		AD61BA2823F7C8750098896F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA2723F7C8750098896F /* SceneDelegate.swift */; };
 		AD61BA2B23F7C8750098896F /* SavingImgCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD61BA2923F7C8750098896F /* SavingImgCoreData.xcdatamodeld */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		AD3EBF6923F908D9002BDEDE /* SenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderView.swift; sourceTree = "<group>"; };
+		AD3EBF6B23F90F8E002BDEDE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		AD61BA2223F7C8750098896F /* SavingImgCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavingImgCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD61BA2523F7C8750098896F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD61BA2723F7C8750098896F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				AD61BA2923F7C8750098896F /* SavingImgCoreData.xcdatamodeld */,
 				AD61BA3023F7C8770098896F /* Preview Content */,
 				AD3EBF6923F908D9002BDEDE /* SenderView.swift */,
+				AD3EBF6B23F90F8E002BDEDE /* ImagePicker.swift */,
 			);
 			path = SavingImgCoreData;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				AD61BA2B23F7C8750098896F /* SavingImgCoreData.xcdatamodeld in Sources */,
 				AD61BA2D23F7C8750098896F /* ContentView.swift in Sources */,
 				AD61BA2823F7C8750098896F /* SceneDelegate.swift in Sources */,
+				AD3EBF6C23F90F8E002BDEDE /* ImagePicker.swift in Sources */,
 				AD61BA3E23F7C9570098896F /* Saving+CoreDataClass.swift in Sources */,
 				AD61BA3F23F7C9570098896F /* Saving+CoreDataProperties.swift in Sources */,
 			);
